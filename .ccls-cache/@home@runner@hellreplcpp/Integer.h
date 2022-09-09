@@ -4,6 +4,6 @@ class Integer {
   int myInt;
 
 public:
-  Integer(int i) { myInt = i; }
-  int get() {return myInt;}
+  Integer(int i);
+  int get();
 };
